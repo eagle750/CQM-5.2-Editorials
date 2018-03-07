@@ -12,4 +12,4 @@ For this add the element which comes exactly after the window and subtract the f
 Update the `min` to minimum of `min` and the current window sum and the `max` to maximum of `max` and the current window sum. 
 Repeat until the all the last element is reached. Finally print the difference `max – min`.
 
-**Use long data type for saving the sum, max and min.**
+**Use long data type for saving the `sum`, `max` and `min`.**
