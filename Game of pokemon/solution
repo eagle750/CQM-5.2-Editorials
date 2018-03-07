@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+string a[]={"vaporeon", "jolteon", "flareon", "espeon", "umbreon", "leafeon", "glaceon", "sylveon"};
+string s;
+int i,j,n;
+	cin>>n>>s;
+	for(i=0; i<8; i++) 
+	if(a[i].size()==n){
+	for(j=0; j<n; j++)
+	if (s[j]!='.'&&s[j]!=a[i][j])
+	break;
+	if(j==n){
+	cout<<a[i]; break;
+	}}
+	return 0;
+}
