@@ -1,3 +1,5 @@
+Question 3:- https://www.hackerrank.com/contests/cqm-5-2/challenges/game-of-pokemon
+
 Each alphabet of the input should be matched with any particular pokemon.
 
 First take one pokemon and then start matching the alphabets in the input one by one. 
