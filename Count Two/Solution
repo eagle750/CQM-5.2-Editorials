@@ -1,0 +1,18 @@
+** C++ Solution **
+
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int n,ans = 0,t;
+	cin >> n;
+    while(n--){
+        cin >> t;
+        if(t == 2)
+            ans++;
+    }
+    cout << ans ;
+    return 0;
+}
